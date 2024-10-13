@@ -2,14 +2,19 @@
 
 
 html, body {
-    height: 100%;
+    height: 1506px;
     margin: 0;
 }
 
 body {
-    margin-bottom: 0;
+    
     margin-top: 20px;
-    background-color: rgba(231, 185, 61, 0.42);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(231, 185, 61, 0.42);
+  
+ 
   
 
 }
@@ -59,13 +64,10 @@ input {
     width: 80px;
     border-radius: 6px;
     text-align: center;
- 
 }
 
 input::placeholder {
     color: rgba(0, 0, 0, 0.42);  
-   
-    
 }
 
 h2 {
@@ -81,15 +83,7 @@ h2 {
      font-family: "Lobster Two", sans-serif;
  }
 
- .Fundo { 
-    display: flex;
-    background-color: rgba(178, 199, 243, 1) ;
-    height: 80%;
-    width: 90%;
-    margin: 0 auto 0 auto;
-   
-  
- }
+
 
  .filtro {
     display: flex;
@@ -98,20 +92,117 @@ h2 {
     height: 58px;
     margin: 0 auto 0 auto;
     margin-top: 10%;
-   
  }
+
+
 
  .filtro, p {
     color: white;
     display: flex;
     justify-content: space-around;
  }
-
- .filtro, .Fundo {
+ .Fundo { 
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(178, 199, 243, 1) ;
+    height: 1506px;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    align-items: center;
+ }
+ 
+ .primeiro { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(178, 199, 243, 1) ;
+  
+    width: 99%;
+    border-bottom: solid 1px black;
+ }
+ .aba, .Fundo {
    border-radius: 10px 10px 0px 0px;
     margin-bottom: 0; /* Remove a margem inferior, caso queira garantir */
 }
 
+.configuração {
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 800px;
+}
 
+#Principal {
+    background-color: white;
+    display: flex;
+    width: 80%;
+    height: 90%;
+    margin: 30px 20px 10px 60px;
+    margin-bottom: 10px;
+}
 
+.Coluna {
+    display: flex;
+    margin-right: 17% ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 430px;
+    
+}
+
+.Sec {
+    margin: 30px;
+    background-color: rgb(126, 94, 94);
+    width: 100%;
+    height: 50%;
  
+}
+.Sec2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.Diversos {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 99%;
+    margin-top: 5%;
+    border-bottom: solid 1px black;
+
+}
+.bloco, .bloco2, .bloco3, .bloco4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    width: 100%;
+    height: 20%;
+    flex-wrap: wrap;
+}
+
+h3 {
+    color: red;
+    font-size: 30px;
+}
+p {
+flex: 1 1 100px;
+font-size: 25px;
+justify-content: flex-start;  
+}
+
+#n1, #n2, #n3, #n4{
+    display: flex;
+    border-radius: 30px;
+    margin: 50px;
+    width: 483px;
+    height: 183px;
+    background-color: rgb(255, 255, 255);
+}
+
+
